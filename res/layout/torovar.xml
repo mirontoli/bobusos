@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent"
+	android:paddingRight="25dip" 
+	android:paddingLeft="25dip">
+	<!--
+	<TextView android:text="@string/tvTest" 
+		android:id="@+id/tvTest"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" />
+	-->
+	<EditText android:id="@+id/entry" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:background="@android:drawable/editbox_background"
+		android:layout_marginTop="25dip"
+		android:maxHeight="200dip"/>
+	<Button android:text="@string/buttonTranslate" 
+		android:id="@+id/buttonTranslate2RovarInnerActivity"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_below="@id/entry" 
+		android:layout_alignParentRight="true"
+		android:onClick="@string/translateHandler" />
+	<EditText android:text="@string/outputTranslation" 
+		android:id="@+id/outputTranslation"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:layout_below="@id/buttonTranslate2RovarInnerActivity"
+		android:scrollbars="vertical" 
+		android:height="200dip"
+		android:focusableInTouchMode="false"
+		android:gravity="top" />
+</RelativeLayout>

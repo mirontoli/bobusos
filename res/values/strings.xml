@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- The program -->
+	<string name="app_name">Rövarspråksöversättare</string>
+	<string name="aboutTheProgram">Rövarspråket (rorövovarorsospoproråkoketot)\
+	 är ett enkelt kodspråk  som framför allt används av barn.\
+	  Det blev populärt i och med Astrid Lindgrens romaner</string>
+    
+    <!-- Main Activity: Rovar -->
+    <!-- views -->
+	<string name="tvHello">Rövarspråket!</string>	
+	<string name="buttonTranslate2Rovar">Översätt till rövarspråket</string>
+	<string name="buttonTranslateFromRovar">Översätt från rövarspråket</string>	
+    <string name="buttonAbout">Om rövarspråket</string>  
+    <string name="buttonExit">Avsluta</string>
+    <!-- click handlers -->
+    <string name="translate2RovarHandler">buttonTranslate2Rovar_click</string>
+    <string name="translateFromRovarHandler">buttonTranslateFromRovar_click</string>
+    <string name="aboutHandler">buttonAbout_click</string>
+    <string name="exitHandler">buttonExit_click</string>
+    
+    
+    <!-- Activity: Translate2RovarActivity -->
+    <string name="tvTest">Översätt till rövarspråket</string>
+    <string name="titleToRovar">Översätt till rövarspråket</string>
+    <string name="titleFromRovar">Översätt från rövarspråket</string>
+    <string name="buttonTranslate">Översätt</string>
+    <string name="outputTranslation"></string>
+    <string name="translateHandler">buttonTranslate_click</string>
+    <string name="contextMenuClear">Rensa</string>
+    <string name="nothingToTranslate">Ingenting att översätta</string>
+    
+    <!-- Activity: About -->
+    <string name="about_title">Om rövarspråket</string>
+    
+    <!-- Activity: Settings -->
+    <string name="settings_label">Inställningar</string>
+    <string name="settings_shortcut">i</string>
+    <string name="music_title">Bakgrundsmusik</string>
+    <string name="music_summary">Spelar bakgrundsmusik</string>
+</resources>

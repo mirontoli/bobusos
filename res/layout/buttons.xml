@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is the group of buttons which is being reused in layout/main and layout-land/main -->
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" >
+		<Button android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:text="@string/buttonTranslate2Rovar"
+			android:id="@+id/buttonTranslate2Rovar" 
+			android:onClick="@string/translate2RovarHandler"
+			android:clickable="true" />
+		<Button android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:text="@string/buttonTranslateFromRovar"
+			android:id="@+id/buttonTranslateFromRovar" 
+			android:onClick="@string/translateFromRovarHandler" />
+		<Button android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:text="@string/buttonAbout"
+			android:id="@+id/buttonAbout" 
+			android:onClick="@string/aboutHandler" />
+		<Button android:layout_width="fill_parent"
+			android:layout_height="wrap_content" 
+			android:text="@string/buttonExit"
+			android:id="@+id/buttonExit" 
+			android:onClick="@string/exitHandler" />
+	</LinearLayout>
