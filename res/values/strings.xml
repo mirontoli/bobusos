@@ -2,7 +2,6 @@
 <resources>
 	<!-- The program -->
 	<string name="app_name">Bobusos</string>
-	<string name="rovar_name">Rövarspråksöversättare</string>
 	<string name="aboutTheProgram">Rövarspråket (rorövovarorsospoproråkoketot)\
 	 är ett enkelt kodspråk  som framför allt används av barn.\
 	  Det blev populärt i och med Astrid Lindgrens romaner</string>
